@@ -1,30 +1,66 @@
 <html>
     <head>
+	<title>Home</title>	    
         <style>
-	    main {
-		    position: relative;
+	    header {
+		    position: fixed;
+		    background-color: #958650;
+		    top: 0px;
+		    left: 0px;
+		    width: 100%;
+		    height: 20px;
 		}
-	    img.card {
-		    height: 200px;
+	    nav {
+		    margin-top: 20px;
+		    margin-bottom: 0px;
+		    background-color: #15c67e8;
 		}
-	    img#a {
-		    position: absolute;
-		    top: 10px;
-		    left: 50px;
+	    nav li {
+		    display: inline;
 		}
-	    img#b {
-		    position: absolute;
-		    top: 20px;
-		    left: 100px;
+	    section {
+		    float: left;
+		    width: 20%;
+		    height: 500px;
+		    background-color: #ed7a27;
+		    color: #d8fb72;
+		}
+	    aside {
+		    float: left;
+		    width: 80%;
+		    height: 500px;
+		    background-color: #283fa1;
+		}
+	    footer {
+		    clear: both;
+		    background-color: #9b398b;
+		}
+	    body {
+		    background-color: #84b1e1;
+		    margin: 0px;
 		}
 	</style>
     </head>
     <body>
-	<main>
-	    <h1> This is inside main. </h1>
-            <img id = "a" class = "card" src="https://res.cloudinary.com/teepublic/image/private/s--0__hSMYB--/t_Resized%20Artwork/c_fit,g_north_west,h_1054,w_1054/co_ffffff,e_outline:53/co_ffffff,e_outline:inner_fill:53/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1494240284/production/designs/1583178_1.jpg" />
-	    <img id = "b" class = "card" src="https://res.cloudinary.com/teepublic/image/private/s--0__hSMYB--/t_Resized%20Artwork/c_fit,g_north_west,h_1054,w_1054/co_ffffff,e_outline:53/co_ffffff,e_outline:inner_fill:53/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1494240284/production/designs/1583178_1.jpg" />
-	</main>
-	<h1> This is outside main. </h1>
+	<header>
+	    A header that stays stuck to the top.
+	</header>
+	<nav>
+	    <ul>
+		<li>About</li>
+		<li>Papers</li>
+		<li>Donate</li>
+	    </ul>
+	</nav>
+	<section>
+	    This would be a good place for students.
+	</section>
+	<aside>
+	    This is the main content area.
+	    <img src = "https://i0.wp.com/blog.oureducation.in/wp-content/uploads/2013/03/7074702-web-technology-internet-abstract-as-a-concept.jpg?ssl=1" />		
+	</aside>
+	<footer>
+	    Copyriight area, Contact Us
+	</footer>
     </body>
 </html>
