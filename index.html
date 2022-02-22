@@ -1,31 +1,29 @@
 <html>
 <head>
   <style>
- @keyframes moveit {
+ @keyframes spin {
     from {
-        top: 0px;
-        left: 0px;
+        transform:rotate(0deg);
     }
     to {
-        top: 300px;
-        left: 300px;
+        transform:rotate(360deg);
     }
 }
   div {
-      width: 100px;
-      height: 100px;
-      background-color: #1c83b5;
-      animation-name: moveit;
-      animation-duration: 4s;
-      animation-delay: 2s;
-      animation-iteration-count: infinite;
-      animation-direction: alternate;
+  width: 100px;
+  height: 100px;
+  background-color: #0CB1C4;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+      
   }
   </style>
 </head>
 <body>
 <div>
-<h1>Hello World</h1>
+<img src = "https://www.konnecthq.com/wp-content/uploads/2019/07/spin-experimenr.jpg"/>
 </div>
 </body>
 </html>
