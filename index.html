@@ -1,16 +1,18 @@
 <html>
 <head>
   <style>
-  @keyframes example {
-         from {background-color: #23e4a4;}
-         to {background-color: #f194d5;}
-  }
-
+  @keyrames spin {
+    from {
+      transorm: rotate(0deg);
+    } to {
+      transorm: rotate(360deg);
+    }
+    }
   div {
       width: 100px;
       height: 100px;
       background-color: #1c83b5;
-      animation-name: example;
+      animation-name: spin;
       animation-duration: 4s;
       animation-delay: 2s;
       animation-iteration-count: infinite;
