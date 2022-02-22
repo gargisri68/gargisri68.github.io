@@ -1,18 +1,21 @@
 <html>
 <head>
   <style>
-  @keyframes spin {
+ @keyframes moveit {
     from {
-      transform: rotate(0deg);
-    } to {
-      transform: rotate(360deg);
+        top: 0px;
+        left: 0px;
     }
+    to {
+        top: 300px;
+        left: 300px;
     }
+}
   div {
       width: 100px;
       height: 100px;
       background-color: #1c83b5;
-      animation-name: spin;
+      animation-name: moveit;
       animation-duration: 4s;
       animation-delay: 2s;
       animation-iteration-count: infinite;
